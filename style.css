@@ -34,12 +34,15 @@ textarea {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  padding: 5px;
 }
 
 .past {
@@ -65,7 +68,12 @@ textarea {
   color: white;
 }
 
-.saveBtn i:hover {
+.saveBtn:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+  background-color: blue;
+}
+
+.btmspace {
+  padding: 2.5%;
 }

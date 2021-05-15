@@ -20,8 +20,6 @@
     />
     <link rel="stylesheet" href="style.css" />
     <title>Work Day Scheduler</title>
-    <script src="script.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.26.0/luxon.min.js"></script>
   </head>
 
   <body>
@@ -32,54 +30,57 @@
     </header>
     <div class="container">
       <!-- The timeblocks that allow user input for schedule item saving -->
-      <div class="row" id="time1">
-          <div class="col-1 m-4">9:00AM</div>
+      <div class="row">
+          <div class="col-1 m-4 hour" id="time1">9:00AM</div>
           <textarea id="input1" class="form-control col-8"></textarea>
-          <button class="col-2" id="save1">Save Task</button>
+          <button class="col-2 saveBtn" id="save1">Save Task</button>
         </div>  
-      <div class="row" id="time2">
-        <div class="col-1 m-4">10:00AM</div>
+      <div class="row">
+        <div class="col-1 m-4 hour" id="time2">10:00AM</div>
         <textarea id="input2" class="form-control col-8"></textarea>
-        <button class="col-2" id="save2">Save Task</button>
+        <button class="col-2 saveBtn" id="save2">Save Task</button>
       </div>
-      <div class="row" id="time3">
-        <div class="col-1 m-4">11:00AM</div>
+      <div class="row">
+        <div class="col-1 m-4 hour" id="time3">11:00AM</div>
         <textarea id="input3" class="form-control col-8"></textarea>
-        <button class="col-2" id="save3">Save Task</button>
+        <button class="col-2 saveBtn" id="save3">Save Task</button>
       </div>
-      <div class="row" id="time4">
-        <div class="col-1 m-4">12:00PM</div>
+      <div class="row">
+        <div class="col-1 m-4 hour" id="time4">12:00PM</div>
         <textarea id="input4" class="form-control col-8"></textarea>
-        <button class="col-2" id="save4">Save Task</button>
+        <button class="col-2 saveBtn" id="save4">Save Task</button>
       </div>        
-      <div class="row" id="time5">
-        <div class="col-1 m-4">1:00PM</div>
+      <div class="row">
+        <div class="col-1 m-4 hour" id="time5">1:00PM</div>
         <textarea id="input5" class="form-control col-8"></textarea>
-        <button class="col-2" id="save5">Save Task</button>
+        <button class="col-2 saveBtn" id="save5">Save Task</button>
       </div>
-      <div class="row" id="time6">
-        <div class="col-1 m-4">2:00PM</div>
+      <div class="row">
+        <div class="col-1 m-4 hour" id="time6">2:00PM</div>
         <textarea id="input6" class="form-control col-8"></textarea>
-        <button class="col-2" id="save6">Save Task</button>
+        <button class="col-2 saveBtn" id="save6">Save Task</button>
       </div>      
-      <div class="row" id="time7">
-        <div class="col-1 m-4">3:00PM</div>
+      <div class="row">
+        <div class="col-1 m-4 hour" id="time7">3:00PM</div>
         <textarea id="input7" class="form-control col-8"></textarea>
-        <button class="col-2" id="save7">Save Task</button>
+        <button class="col-2 saveBtn" id="save7">Save Task</button>
       </div>
-      <div class="row" id="time8">
-        <div class="col-1 m-4">4:00PM</div>
+      <div class="row">
+        <div class="col-1 m-4 hour" id="time8">4:00PM</div>
         <textarea id="input8" class="form-control col-8"></textarea>
-        <button class="col-2" id="save8">Save Task</button>
+        <button class="col-2 saveBtn" id="save8">Save Task</button>
       </div>
-      <div class="row" id="time9">
-        <div class="col-1 m-4">5:00PM</div>
+      <div class="row">
+        <div class="col-1 m-4 hour" id="time9">5:00PM</div>
         <textarea id="input9" class="form-control col-8"></textarea>
-        <button class="col-2" id="save9">Save Task</button>
+        <button class="col-2 saveBtn" id="save9">Save Task</button>
       </div>
     </div>
+    <footer class="btmspace">
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/themes/black-tie/jquery-ui.css"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/luxon/1.26.0/luxon.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
